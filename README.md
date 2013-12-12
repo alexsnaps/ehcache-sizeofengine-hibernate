@@ -1,4 +1,4 @@
-ehcache-sizeofengine-hibernate3
+ehcache-sizeofengine-hibernate
 ===============================
 
 See [Ehcache's SizeOfEngine module](http://terracotta-oss.github.io/ehcache-sizeofengine/) for details, but to put it
