@@ -1,7 +1,7 @@
 ehcache-sizeofengine-hibernate
 ===============================
 
-See [Ehcache's SizeOfEngine module](http://terracotta-oss.github.io/ehcache-sizeofengine/) for details, but to put it
+See [Ehcache's SizeOfEngine module](http://ehcache.github.io/sizeof/) for details, but to put it
 simply: adding this dependency to your pom.xml, will have [Ehcache](http://www.ehcache.org)'s Automatic Resource
 Control (aka [ARC](http://ehcache.org/documentation/arc)) size Hibernate4 caches correctly.
 
