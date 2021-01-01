@@ -13,14 +13,6 @@
     <java.build.version>1.8</java.build.version>
   </properties>
 
-  <repositories>
-    <repository>
-      <!-- For older engine -->
-      <id>jitpack.io</id>
-      <url>https://jitpack.io</url>
-    </repository>
-  </repositories>
-
   <dependencies>
     <dependency>
       <groupId>net.sf.ehcache.internal</groupId>
@@ -29,9 +21,9 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>com.github.alexsnaps</groupId>
-      <artifactId>ehcache-sizeofengine</artifactId>
-      <version>v0.1.0</version>
+      <groupId>org.ehcache</groupId>
+      <artifactId>sizeof</artifactId>
+      <version>0.2.0</version>
     </dependency>
     <dependency>
       <groupId>org.hibernate</groupId>
