@@ -1,7 +1,7 @@
 package net.sf.ehcache.sizeofengine.hibernate;
 
-import net.sf.ehcache.sizeofengine.Filter;
-import net.sf.ehcache.sizeofengine.FilterConfigurator;
+import org.ehcache.sizeof.Filter;
+import org.ehcache.sizeof.FilterConfigurator;
 import org.hibernate.Session;
 import org.hibernate.cache.spi.QueryKey;
 import org.hibernate.engine.spi.SessionImplementor;
@@ -33,7 +33,7 @@ public class HibernateFilterConfigurator implements FilterConfigurator {
   }
 
   private static Set<Field> getAllFields() {
-    Set<Field> fields = new HashSet<Field>();
+    Set<Field> fields = new HashSet<>();
     fields.add(getField(QueryKey.class, "positionalParameterTypes"));
     fields.add(getField(AbstractLazyInitializer.class, "entityName"));
     fields.add(getField(BasicLazyInitializer.class, "persistentClass"));
